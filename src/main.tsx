@@ -1,20 +1,36 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Mydiv from "./Components/MyDiv";
 
 const root = document.getElementById("root") as HTMLElement;
 const appRoot = ReactDOM.createRoot(root);
 
+/*const n1 = 5;
+const n2 = 7;
+const name = "Sidney Souza";
+const colors: string[] = ['vermelho' , 'azul'];
+
 const myDiv = (
   <>
-    <div>
-      <h1>oi</h1>
-      <p>Tudo Bem?</p>
-    </div>
-    <div>
-      <h1>ola</h1>
-      <p>Tudo</p>
-    </div>
+    <p>Resultado : {n1 + n2}</p>
+    <p>Olá , {name.toUpperCase()}!</p>
+    {colors.length > 0 && (
+      <ul>
+        {colors.map((c , index) => (
+          <li key={index}> Eu gosto da cor {c}</li>
+        ))}
+      </ul>
+    )}
+    {colors.length == 0 && <p>Nenhuma cor para exibir</p>}
   </>
 );
 
-appRoot.render(myDiv);
+appRoot.render(myDiv);*/
+
+
+
+
+
+
+
+appRoot.render(<Mydiv />);
